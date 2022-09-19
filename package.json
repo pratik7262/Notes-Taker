@@ -1,0 +1,17 @@
+{
+  "name": "notestaker",
+  "version": "1.0.0",
+  "description": "In this project notes taken will be saved on mongoDB database by which you will can acccess your important notes from anywhere on internet by login to your account ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Pratik Shinde",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "mongodb": "^3.0.0",
+    "pug": "^3.0.2"
+  }
+}

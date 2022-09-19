@@ -1,0 +1,23 @@
+doctype html
+html(lang='en')
+  head
+    include links 
+  body
+    include navBar 
+    #alert.alert.alert-danger.d-none(role='alert')
+      |Please Enter Note First!!! 
+    .container.my-3
+      h1 Add New Notes Here.
+      .card(style='width: 100%;')
+        .card-body
+            .input-group.flex-nowrap.mb-4
+              input#title.form-control(type='text', name="title",placeholder='Title', aria-label='Username', aria-describedby='addon-wrapping')
+            .input-group.flex-nowrap
+              input#note.form-control(type='text', name="note",placeholder='Note', aria-label='Username', aria-describedby='addon-wrapping')
+            button#sbtn.btn.btn-primary.my-3(type='submit') Add A Note
+    
+    #notesContainer.container.my-3
+
+
+    script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js', integrity='sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2', crossorigin='anonymous')
+    script(defer src='./static/js/script.js')

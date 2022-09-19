@@ -1,0 +1,27 @@
+.btn-container {
+    float: right;
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background:red;
+}
+
+nav{
+    position: sticky;
+    top:0 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.bold{
+    font-weight: bolder;
+}
+
